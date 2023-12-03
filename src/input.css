@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn
+{
+    @apply bg-color-secondary text-color-white px-9 py-3 rounded-md  hover:opacity-80 ease-in duration-200 capitalize;
+}
+.card-btn
+{
+    @apply w-full px-9 py-3 bg-color-primary-dark rounded-md capitalize font-bold hover:bg-color-secondary ease-in duration-200;
+}
+.title
+{
+    @apply text-3xl md:text-5xl font-bold leading-snug mb-4;
+}
+.blob-top
+{
+    @apply w-80 h-80 bg-color-blob rounded-full absolute top-0 -left-5 blur-2xl -z-20 opacity-30 overflow-hidden;
+}
+.blob-bottom
+{
+    @apply w-80 h-80 bg-color-secondary rounded-full absolute bottom-10 right-0 blur-2xl -z-20 opacity-30 overflow-hidden;
+}
